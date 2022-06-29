@@ -1,12 +1,15 @@
 <template>
     <nav>
         <ul>
-            <li><a href="/">Index</a></li>
-            <li><a href="/about">About</a></li>
-            <li><NuxtLink to="/">Nuxt Index</NuxtLink></li>
-            <li><NuxtLink to="/about">Nuxt About</NuxtLink></li>
+            <li>
+                <NuxtLink to="/">Nuxt Index</NuxtLink>
+            </li>
+            <li>
+                <NuxtLink to="/about">Nuxt About</NuxtLink>
+            </li>
         </ul>
     </nav>
+
 </template>
 <style scoped lang="scss">
 nav {

@@ -1,21 +1,22 @@
 <script setup lang="ts">
 
 definePageMeta({
-  title:  'Home'
+    title: 'Home'
 })
 </script>
 
 <template>
-<Nav />
-<main>
-    <h1>Hello</h1>
+    <div>
+        <main>
+            <h1>Hello</h1>
 
-</main>
+        </main>
+    </div>
 </template>
 
 <style scoped lang="scss">
-body{
-    h1{
+body {
+    h1 {
         color: blue;
     }
 }

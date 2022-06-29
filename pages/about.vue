@@ -2,16 +2,17 @@
 </script>
 
 <template>
-<Nav/>
-<main>
-    <h1>Hello about</h1>
+    <div>
+        <main>
+            <h1>Hello about</h1>
 
-</main>
+        </main>
+    </div>
 </template>
 
 <style scoped lang="scss">
-body{
-    h1{
+body {
+    h1 {
         color: forestgreen;
     }
 }
