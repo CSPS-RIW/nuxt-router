@@ -29,7 +29,12 @@ nav {
 
             &:visited {
                 color: #fff;
+            }
 
+            &:hover,
+            &.router-link-active {
+                color: coral;
+                border-bottom: 2px coral solid;
             }
         }
     }
