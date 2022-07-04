@@ -49,7 +49,7 @@ definePageMeta({
             <p class="instructions mt-sm">Write something about RIW</p>
             <input type="text" placeholder="Write somenting here"
                 class="mt-xsm custom-input" v-model="inputContent">
-            <button class="btn btn-primary">Save your Nuxt message</button>
+            <button class="btn btn-secondary">Save your Nuxt message</button>
         </form>
         <div class="about-show" aria-live="polite">
             <section>
