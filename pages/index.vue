@@ -23,7 +23,7 @@ const addMesage = () => {
 }
 
 watch(messages, newMessage => {
-    localStorage.setItem('messages', JSON.stringify(newMessage))
+    localStorage.setItem('riwThings', JSON.stringify(newMessage))
 }, { deep: true })
 
 watch(name, (newName) => {
@@ -31,8 +31,8 @@ watch(name, (newName) => {
 })
 
 onMounted(() => {
-    name.value = localStorage.getItem('name')
-    messages.value = JSON.parse(localStorage.getItem('messages')) || []
+    name.value = localStorage.getItem('myName')
+    messages.value = JSON.parse(localStorage.getItem('riwThings')) || []
 })
 
 definePageMeta({
